@@ -1,0 +1,314 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "    Add New Employee in Employee list",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9412305100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user launch the Chrome application",
+            "match": {
+              "location": "AddEmployeeStep.the_user_launch_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6596610200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user click on administartion and login is proceeded",
+            "match": {
+              "location": "AddEmployeeStep.the_user_click_on_Administartion_and_Login_is_proceeded()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 797981300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user click on employee field",
+            "match": {
+              "location": "AddEmployeeStep.the_user_click_on_Employee_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2132934200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on add employee field and enter the credentials",
+            "match": {
+              "location": "AddEmployeeStep.the_user_click_on_Add_Employee_field_and_enter_the_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5504718600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on add button",
+            "match": {
+              "location": "AddEmployeeStep.click_on_Add_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC_01_Add_Employee"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "",
+        "description": "  To check the added employee getting logged in",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6734437800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launch the Chrome application",
+            "match": {
+              "location": "EmployeeLoginStep.the_user_launch_chrome_emplo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1619088200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user click on Administration tab",
+            "match": {
+              "location": "EmployeeLoginStep.the_user_click_on_Administration_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9765453700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters login credentials and clicks login",
+            "match": {
+              "location": "EmployeeLoginStep.the_user_enters_login_credentials_and_clicks_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@TC_02_Check_Login"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "   To add Hold Type",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6202918000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user launch Chrome application",
+            "match": {
+              "location": "AddTaskTypeStep.the_user_launch_chrome_type()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2925838100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user click  Administration tab and do valid login",
+            "match": {
+              "location": "AddTaskTypeStep.the_user_click_Administration_tab_and_do_valid_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1880611400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user click on Types field and clicks Add New Type",
+            "match": {
+              "location": "AddTaskTypeStep.the_user_click_on_Types_field_and_clicks_Add_New_Type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5854728500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user enters Type Name and submit",
+            "match": {
+              "location": "AddTaskTypeStep.the_user_enters_Type_Name()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@TC_03_Add_Hold_Type"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "",
+        "description": " To search closed status",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6615946200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user launch Chrome application",
+            "match": {
+              "location": "SearchClosedStatusStep.the_user_launch_chrome_cls()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5454435100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user enter the home page and select the status",
+            "match": {
+              "location": "SearchClosedStatusStep.the_user_enter_the_home_page_and_select_the_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167152500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the status field is inspected and search button is clicked",
+            "match": {
+              "location": "SearchClosedStatusStep.the_status_field_is_inspected_and_search_button_is_clicked()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@TC_04_search_closed_status"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "",
+        "description": "",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4522203300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "launch the Chrome application",
+            "match": {
+              "location": "PriorityHighTaskStep.the_user_launch_chrome_pri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1604603100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Priority field is inspected and search button should be clicked",
+            "match": {
+              "location": "PriorityHighTaskStep.priority_field_is_inspected_and_search_button_should_be_clicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8602322400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Print the priority high Task table in the console",
+            "match": {
+              "location": "PriorityHighTaskStep.print_Task_table()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@TC_05_Print_the_priority_field"
+          }
+        ]
+      }
+    ],
+    "name": "Task_Management Website",
+    "description": "",
+    "id": "task-management-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/feature/Taskmanagement.Feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Task_Management"
+      }
+    ]
+  }
+]
