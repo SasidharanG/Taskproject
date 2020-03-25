@@ -53,6 +53,7 @@ public class SearchClosedStatusPage {
 		Thread.sleep(4000);
 		
 	}
+	//to close the browser
 	public void exit()
 	{
 		driver.close();

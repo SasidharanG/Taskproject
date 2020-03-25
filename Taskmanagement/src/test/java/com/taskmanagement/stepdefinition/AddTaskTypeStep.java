@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 
 public class AddTaskTypeStep {
 	AddTaskTypePage tasktype=new AddTaskTypePage();  //creating object for task type
-	//TC 12 add Hold type in task
+	//TC 03 add Hold type in task
 	
 		@Given ("^The user launch Chrome application$")
 		public void the_user_launch_chrome_type_tt()

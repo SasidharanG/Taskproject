@@ -59,6 +59,7 @@ public class AddEmployeePage {
 		driver.findElement(Loginclick).click();
 		Thread.sleep(4000);
 	}
+	//clicking over employee field after login 
 	public void employee()
 	{
 		driver.findElement(employeefield).click();
@@ -75,6 +76,7 @@ public class AddEmployeePage {
 	    driver.findElement(By.name("security_group_id")).sendKeys(Keys.DOWN);
 	    driver.findElement(By.name("security_group_id")).sendKeys(Keys.ENTER);		
 	}
+	//to click on the add button to make him as admin
 	public void add() throws InterruptedException
 	{
 		driver.findElement(click_add).click();

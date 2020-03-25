@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 public class AddEmployeeStep {
 	AddEmployeePage addempl= new AddEmployeePage(); 	 		// creating object for add employee
 	
-	//TC 01 AddEmployee sceanrio methods
+	//TC 01 AddEmployee scenario methods
 			
 		@Given ("^The user launch the Chrome application$")
 		public void the_user_launch_chrome()

@@ -57,11 +57,13 @@ public class AddTaskTypePage {
 		driver.findElement(Password).sendKeys("admin");
 		driver.findElement(Loginclick).click();
 	}
+	//click functions
 	public void type()
 	{
 		driver.findElement(Types).click();
 		driver.findElement(Add_New_Type).click();
 	}
+	//to add new types in administration
 	public void addType() throws InterruptedException
 	{
 		driver.findElement(Name).sendKeys("Hold");
