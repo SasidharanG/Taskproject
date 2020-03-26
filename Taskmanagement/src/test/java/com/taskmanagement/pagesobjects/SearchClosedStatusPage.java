@@ -1,9 +1,14 @@
 package com.taskmanagement.pagesobjects;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.codehaus.plexus.util.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -50,12 +55,16 @@ public class SearchClosedStatusPage {
 		driver.findElement(Status).sendKeys(Keys.DOWN);
 		driver.findElement(Status).sendKeys(Keys.ENTER);
 		driver.findElement(Search).click();
-		Thread.sleep(4000);
+	
 		
 	}
 	//to close the browser
-	public void exit()
+	public void Screenshot(String path) throws IOException, InterruptedException
 	{
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File SrcFile = ts.getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(SrcFile,new File(path));
+		Thread.sleep(4000);
 		driver.close();
 	}
 	

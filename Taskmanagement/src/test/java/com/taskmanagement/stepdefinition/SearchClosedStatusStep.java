@@ -21,7 +21,7 @@ public class SearchClosedStatusStep {
 		}
 		@Then("^the status field is inspected and search button is clicked$")
 		public void the_status_field_is_inspected_and_search_button_is_clicked() throws Throwable {
-			taskclosed.exit();
+			taskclosed.Screenshot("src/test/resources/Screenshot");
 		}
 
 }

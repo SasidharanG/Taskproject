@@ -25,5 +25,5 @@ public class PriorityHighestTaskStep {
 		public void print_Task_table() throws InterruptedException  
 		{
 		priority.print();   
-	}
+	    }
 }
